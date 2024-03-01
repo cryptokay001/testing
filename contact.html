@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap">
+        <style>
+            /* CONTACT SECTION */
+.contact-page{
+    margin-top: 60px;
+    height: 100vh;
+
+}
+.form-container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    
+
+}
+.contact-container{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.form-title{
+    align-self: center;
+}
+.form-title>p{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 0;
+}
+/* .form-group{
+    margin: 0;
+} */
+.bottom-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #9E9FA5;
+}
+.form-control{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+}
+.short{
+    height: 25px;
+}
+.bluefill{
+    color: blue;
+}
+
+.contact-box{
+    background-color: #9E9FA5;
+    padding: 10px;
+}
+.contact-box>svg{
+    height: 30px;
+    background-color: #61677A;
+    margin-left: 5px;
+    padding: 5px;
+}
+.contact-box>h4,p{
+    margin-left: 5px;
+}
+
+#outer-form{
+    background-color: #9E9FA5;
+    padding: 20px;
+    border-radius: 10px;
+    
+    width: 600px;
+}
+.contact-page>h1{
+    color: blue;
+    /* margin: 0; */
+    font-size: 2rem;
+    text-align: center;
+    margin: 70px;
+
+}
+#buttton-contactsend{
+    position: relative;
+}
+.contact-submit{
+    width: 80px;
+    height: 35px;
+    position: relative;
+    /* left: 480px; */
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+.bottom-column{
+    display: flex;
+    justify-content: space-around;
+}
+.bottom-end{
+    background-color: black;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+}
+.bottom-column *{
+    color: white;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    
+}
+.copyright{
+    color: white;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.socials {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fa-linkedin{
+    color: white;
+}
+/* .fa-brands{
+    font-size: 5px;
+    height: 10px;
+}
+.socials>a{
+    font-size: 5px;
+    height: 10px;
+} */
+.svg{
+    
+   
+    text-align: center;
+}
+.svg>svg{
+    margin-bottom: 20px;
+}
+@media  (max-width: 500px) {
+    .form-container{
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        margin-left: 15px;
+        
+    
+    }
+    .form-title{
+        align-self: flex-start;
+    }
+    .contact-container{
+        gap: 10px;
+    }
+    #outer-form{
+        width: 98%;
+    }
+    .form-control{
+    width: 100%;
+    }
+    .bottom-column{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer {
+        
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+
+
+}
+
+
+            
+        </style>
+    </head>
+    <body>
+        <section class="contact-page">
+            
+            <div class="form">
+                <div class="form-container">
+                    <div class="form-title">
+                        <p>Get In <span class="bluefill">Touch</span></p>
+                        <h3>Lets create something <span class="bluefill">awesome</span></h3>
+                        <div class="contact-container">
+                            <div class="contact-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"></path>
+                                </svg>
+                                <h4>Email address</h4>
+                                <p>kayodeakeem001@gmail.com</p>
+                            </div>
+                            <div class="contact-box">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.450l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.580-.122l-2.190.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.460-1.657l.548-2.190a.678.678 0 0 0-.122-.580L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.190a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.740.740-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                                </svg>
+                                <h4>Contact Number</h4>
+                                <p>+234 8140877123</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+        
+                    <div id="outer-form">
+                        <form class="bottom-form" action="http://formspree.io/kayodeakeem001@gmail.com" method="POST">
+                            <div class="form-group">
+                                <!-- <label for="name">Name:</label> -->
+                                <input type="text" class="form-control short" name="full_name" placeholder="Full Name" required=""></div>
+                            <div class="form-group">
+                                <!-- <label for="email">Email:</label> -->
+                                <input type="email" class="form-control short" name="user_email" placeholder="Email Address" required=""></div>
+                            <div class="form-group">
+                                <!-- <label for="subject">Subject:</label> -->
+                                <input type="text" class="form-control short" name="subject" placeholder="Subject" required=""></div>
+                            <div class="form-group">
+                                <!-- <label for="message">Message:</label> -->
+                                <textarea class="form-control tall" name="message" rows="10" placeholder="Write message"></textarea></div>
+                                <div id="button-contactsend">
+                                    <button type="submit" class="contact-submit">Send</button>
+                                </div> 
+                        </form>
+                        
+                    </div>   
+                    
+                </div>
+                
+            </div>
+            
+            <div class="bottom-end">
+                
+                <div class="bottom-column">
+                    <div class="svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16"><path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"></path></svg>
+                        <h5>WHERE TO FIND ME</h5>
+                        <p> Nigeria</p>
+                    </div>
+                    
+                    
+                    <div class="svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.450l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.580-.122l-2.190.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.460-1.657l.548-2.190a.678.678 0 0 0-.122-.580L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.190a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.740.740-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                        </svg>
+                        <h5>EMAIL ME AT</h5>
+                        <p>kayodeakeem001@gmail.com</p>
+                    </div>
+                    <div class="svg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.450l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.580-.122l-2.190.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.460-1.657l.548-2.190a.678.678 0 0 0-.122-.580L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.190a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.740.740-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
+                        </svg>
+                        <h5>CALL ME AT</h5>
+                        <p>Phone:(+234) 8140877123</p>
+        
+                    </div>
+                </div>
+                
+            </div>
+            <div class="footer ">
+                <div class="copyright">
+                    <p><span class="bluefill">Copyright ©2024 All rights reserved</span> | CryptoKay</p>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/cryptokay001"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/keemDread"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="http://linkedin.com/in/akeem-kayode-8a9226265"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+    <script>
+        const contactButton = document.querySelector('.contact-submit');
+        contactButton.addEventListener('mouseenter',hoverIn);
+        contactButton.addEventListener('mouseout',hoverOut);
+        function hoverIn(e){
+            e.target.style.backgroundColor='#1e375a';
+            e.target.style.color='white';
+
+        }
+        function hoverOut(e){
+            e.target.style.backgroundColor='blue';
+        
+        }
+    </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
