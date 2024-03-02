@@ -28,8 +28,9 @@
 } */
 
 .top{
-    background-image: url(test11.JPG); 
+    background-color: black;
     height: 100vh;
+    
 }
 .mynavbar{
     display: inline-flex;
@@ -45,6 +46,7 @@
 #action-menu{
     display: none;
     color: white;
+    margin-right: 5px;
 }
 .nav-list{
    
@@ -110,17 +112,16 @@ li>a{
     display: flex;
     /* justify-content: center; */
     align-items: center;
+    /* background-image: url(test11.JPG);  */
+    width: 100%;
 
    
 }
 .content{
     display: flex; 
-    /* justify-content: center; */
-    /* align-items: center;  */
     flex-direction: column;
     /* border:green  3px solid;   */
     gap: 30px;
-    /* background-color: black; */
     margin-left: 5px;
 }
 p{
@@ -131,14 +132,11 @@ p{
     display: flex;  
     flex-direction: column;
     /* justify-content: space-around; */
+    /* border: red 3px solid; */
     
 }
 .titlestyle{
     font-family: Kanit, sans-serif; 
-    /* font-family: inter, sans-serif; */
-    /* flex-basis: 30px; */
-    /* text-align: center;  */
-    /* border:red  3px solid;  */
 }
 
 .content .h4{
@@ -428,6 +426,9 @@ img {
     display: flex;
     gap: 20px;
     
+    /* justify-content: center; */
+    
+    
 
 }
 .form-title{
@@ -461,6 +462,7 @@ img {
 .contact-box{
     background-color: #9E9FA5;
     padding: 10px;
+    
 }
 .contact-box>svg{
     height: 30px;
@@ -470,7 +472,7 @@ img {
 
 
 }
-.contact-box>h4,p{
+.contact-box>h5,p{
     margin-left: 5px;
 }
 #outer-form{
@@ -589,53 +591,20 @@ img {
 .p-3 {
     padding: 1rem!important;
 }
-/* @media (min-width: 319px) and (max-width: 480px) { */ 
+
     
-    /* .content{
-        background-color: red;
-    }
-    #action-menu {
-        position: relative;
-        width: 100%;
-        padding: 10px 4px 10px 4px;
-        background-color: silver;
-        cursor: pointer;
-      }
-      .nav-list {
-        position: relative;
-        padding-left: 10px;
-        overflow: hidden;
-        height: 0px;
-        background-color: red;
-      }
-      .slideOpen {
-        animation: slideOpen 1s forwards;
-      }
-      .slideShut{
-        animation: slideShut 1s forwards;
-      }
-      @keyframes slideOpen {
-        0% { height: 0px; }
-        100% { height: 100px; }
-      }
-      @keyframes slideShut {
-        0% { height: 100px; }
-        100% { height: 0px; }
-      } */
-      
-/* } */
-@media  (max-width: 500px) {
+    
+@media (max-width: 500px) {
     .mynavbar{
         position: relative;
-        /* align-items: flex-start; */
-        /* height: 200px; */
+        
         border-bottom: black 1px solid;
         position: fixed;
     }
     
     #btn-back-to-top,#subscribe-button{
       display: none;
-      /* visibility: hidden; */
+      
       
     }
     #newSubscribe-button{
@@ -686,6 +655,10 @@ img {
         background-color: black;
         /* border:1px solid red; */
       }
+    .content .h1{
+        
+        font-size: 2.5rem;
+    }
       .slideOpen {
         animation: slideOpen 1s forwards;
         padding-left: 10px;
@@ -771,6 +744,7 @@ img {
     .title>h2{
         font-size: 1.5rem;
     }
+
     .box{
         display: flex;
         margin-top: 20px;
@@ -782,7 +756,7 @@ img {
     }
     .item{
         margin: 0 10px;
-        height: 350px;
+        height: 370px; 
         border-radius: 10px;
     } 
     .form-container{
@@ -797,7 +771,7 @@ img {
         align-self: flex-start;
     }
     .contact-container{
-        gap: 10px;
+        gap: 5px;
     }
     #outer-form{
         width: 98%;
@@ -815,12 +789,36 @@ img {
     #btn-back-to-top{
         display: none !important;
     }
-
-
 }
 
-/* @media only screen and (max-width: 500px){
-    #btn-back-to-top{
-        display: none !important;
+@media (min-width: 450px) and (max-width: 480px) { 
+    .item{
+        height: 375px;
+    } 
+}
+@media (min-width: 412px) and (max-width: 449px) { 
+    .box{
+        height: 1600px; 
     }
-} */
+    .item{
+        height: 390px;
+    } 
+}
+@media (min-width: 380px) and (max-width: 411px) { 
+    .box{
+        height: 1700px; 
+    }
+    .item{
+        height: 410px;
+    } 
+}
+@media (max-width: 379px){
+    .box{
+        height: 1700px; 
+    }
+    .item{
+        height: 430px;
+    } 
+}
+
+

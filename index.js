@@ -46,11 +46,10 @@ function orderlyMove(){
         movingForm.style.marginLeft='5px';
       }
       else{
-        // movingBox.style.backgroundColor='black';
         randomText.style.textAlign="center";
         movingForm.style.alignSelf="center";
-        movingBox.style.marginRight='10px';
-        
+        // movingBox.style.marginRight='10px';
+        movingBox.style.alignItems="center"; 
       }
       movingBoxContainer.style.justifyContent=item;
   
